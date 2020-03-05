@@ -1,3 +1,4 @@
+
 //
 //  ChatLogController.swift
 //  RickM+
@@ -79,24 +80,19 @@ class ChatLogController: UICollectionViewController, UITextFieldDelegate, UIImag
         collectionView.dataSource = self
         
         collectionView.keyboardDismissMode = .interactive
-        
-//        setupInputComponents()
-        
+    
         setupKeyboardObservers()
         
         
     }
     
-//    override func viewDidAppear(_ animated: Bool) {
-//        self.tabBarController?.tabBar.isHidden = true
-//
-//    }
-    
     override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         self.tabBarController?.tabBar.isHidden = true
     }
     
     override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
         NotificationCenter.default.removeObserver(self)
         //avoid memory leak
     }
@@ -462,10 +458,6 @@ class ChatLogController: UICollectionViewController, UITextFieldDelegate, UIImag
     
         let db = Firestore.firestore().collection("Message").order(by: "timestamp", descending: false)
             
-            
-    //*        .whereField("chatUid", isEqualTo: UserInfo.share.chatRealTimePairUidToFriend)
-    //*        .order(by: "timestamp", descending: false)
-            
         db.addSnapshotListener { (querySnapshot, error) in
             if let error = error {
                 
@@ -553,11 +545,7 @@ class ChatLogController: UICollectionViewController, UITextFieldDelegate, UIImag
                             self.chatLog.append(messageDL)
                             
                         }
-                        
-//                            print("\(messageDL)")
-//                            print("\(self.chatLog.count)")
                             
-                        
                     } catch {
                         
                         print(error)

@@ -34,12 +34,10 @@ class ChatMainViewController: UIViewController {
 //        self.navigationItem.leftBarButtonItem = self.editButtonItem
         // Do any additional setup after loading the view.
     }
-    
-    override func viewDidAppear(_ animated: Bool) {
-       
-    }
+
     
     override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         self.tabBarController?.tabBar.isHidden = false
     }
     
@@ -99,7 +97,7 @@ class ChatMainViewController: UIViewController {
                                     let format = DateFormatter()
                                     
                                     format.dateFormat = "dd/MM hh:mm a"
-                                    
+                                
                                     let newdate = NSDate(timeIntervalSince1970: messageDL.timestamp!) as Date
                                     
                                     messageDL.timestampString = format.string(from: newdate)
