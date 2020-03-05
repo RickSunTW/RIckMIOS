@@ -1,0 +1,6 @@
+framework module Pods_RickMplus {
+  umbrella header "Pods-RickMplus-umbrella.h"
+
+  export *
+  module * { export * }
+}
