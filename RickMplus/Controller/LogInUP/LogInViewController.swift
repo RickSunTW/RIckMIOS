@@ -111,6 +111,7 @@ class LogInViewController: UIViewController {
             "phoneNumber": "+886********",
             "status": "default",
             "colleague": false,
+            "photoURL": "https://firebasestorage.googleapis.com/v0/b/mp-rick.appspot.com/o/UserProfilePhoto%2FuserDefaultImage.png?alt=media&token=7b70a2f4-261e-4e74-940c-0ea1cf09ae7d",
             ])
         { (error) in
             if let error = error {

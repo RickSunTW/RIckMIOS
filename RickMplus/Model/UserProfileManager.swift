@@ -9,7 +9,7 @@
 import Foundation
 import Firebase
 import Kingfisher
-//import FirebaseFirestoreSwift
+
 
 protocol UserProfileManagerDelegate: AnyObject {
     
@@ -100,6 +100,42 @@ class UserProfileManager {
                             print(error)
                             
                         }
+                    }
+                }
+            }
+        }
+    }
+    
+    func getAllUsers() {
+    
+        db.collection("Users").addSnapshotListener { (querySnapshot, error) in
+            
+            if let error = error {
+                print("Error getting documents: \(error)")
+            } else {
+                
+                UserInfo.share.allUsers = []
+                
+                guard let quary = querySnapshot else {
+                    
+                    return
+                    
+                }
+                for document in quary.documents {
+                    
+                    do {
+                        
+                        let user = try document.data(as: Users.self, decoder: Firestore.Decoder())
+                        
+                        guard let userData = user else {return}
+                        
+                        UserInfo.share.allUsers.append(userData)
+                        
+                
+                    } catch {
+                        
+                        print(error)
+                        
                     }
                 }
             }

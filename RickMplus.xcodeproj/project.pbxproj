@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		573F9C66240FB541007FF62C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 573F9C65240FB541007FF62C /* GoogleService-Info.plist */; };
 		5751C0C323E7C2390027B7FD /* ProductItemsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5751C0C223E7C2390027B7FD /* ProductItemsCollectionViewCell.swift */; };
+		575401162410F59E00B596BC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 575401152410F59E00B596BC /* GoogleService-Info.plist */; };
 		57545DE423F106FB00B26093 /* MoreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57545DE323F106FB00B26093 /* MoreCollectionViewCell.swift */; };
 		57545DE623F1097F00B26093 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57545DE523F1097F00B26093 /* MoreViewController.swift */; };
 		57545DE823F1261700B26093 /* SelfInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57545DE723F1261700B26093 /* SelfInformationViewController.swift */; };
@@ -55,8 +55,9 @@
 /* Begin PBXFileReference section */
 		15727C2579E2EE2A6FB55842 /* Pods-RickMplus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickMplus.debug.xcconfig"; path = "Target Support Files/Pods-RickMplus/Pods-RickMplus.debug.xcconfig"; sourceTree = "<group>"; };
 		2BD7D2FE682F5B9781D03D96 /* Pods-RickMplus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickMplus.release.xcconfig"; path = "Target Support Files/Pods-RickMplus/Pods-RickMplus.release.xcconfig"; sourceTree = "<group>"; };
-		573F9C65240FB541007FF62C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5751C0C223E7C2390027B7FD /* ProductItemsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemsCollectionViewCell.swift; sourceTree = "<group>"; };
+		575401142410ECFC00B596BC /* RickMPLus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RickMPLus.entitlements; sourceTree = "<group>"; };
+		575401152410F59E00B596BC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		57545DE323F106FB00B26093 /* MoreCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreCollectionViewCell.swift; sourceTree = "<group>"; };
 		57545DE523F1097F00B26093 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		57545DE723F1261700B26093 /* SelfInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfInformationViewController.swift; sourceTree = "<group>"; };
@@ -288,6 +289,7 @@
 		57D0273C23E1EFD20078460D /* RickMplus */ = {
 			isa = PBXGroup;
 			children = (
+				575401142410ECFC00B596BC /* RickMPLus.entitlements */,
 				575AC1DC23ED0B0000CC16DD /* Resources */,
 				57690F5623EBA8B800710824 /* Controller */,
 				5764068A23E2DA510056440F /* View */,
@@ -297,7 +299,7 @@
 				575B1FD5240BEF1F00EAC7CF /* Assets.xcassets */,
 				57D0274823E1EFD50078460D /* LaunchScreen.storyboard */,
 				57D0274B23E1EFD50078460D /* Info.plist */,
-				573F9C65240FB541007FF62C /* GoogleService-Info.plist */,
+				575401152410F59E00B596BC /* GoogleService-Info.plist */,
 			);
 			path = RickMplus;
 			sourceTree = "<group>";
@@ -385,7 +387,7 @@
 				575AC1E223ED13F000CC16DD /* VNI-Ongdo.ttf in Resources */,
 				575B1FD6240BEF1F00EAC7CF /* Assets.xcassets in Resources */,
 				575AC1E023ED0D7900CC16DD /* 101APB.ttf in Resources */,
-				573F9C66240FB541007FF62C /* GoogleService-Info.plist in Resources */,
+				575401162410F59E00B596BC /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,6 +620,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RickMplus/RickMPLus.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C7LN2SD44B;
 				INFOPLIST_FILE = RickMplus/Info.plist;
@@ -640,6 +643,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RickMplus/RickMPLus.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C7LN2SD44B;
 				INFOPLIST_FILE = RickMplus/Info.plist;

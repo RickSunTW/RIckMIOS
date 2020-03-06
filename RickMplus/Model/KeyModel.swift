@@ -19,6 +19,7 @@ class UserInfo {
     var chatRealTimeFriendUid = String()
     var chatRealTimePairUidToFriend = String()
     var chatRealTimePairUidFromMe = String()
+    var allUsers = [Users]()
     
     static let share = UserInfo()
     private init(){

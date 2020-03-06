@@ -34,6 +34,7 @@ class FriendViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         userProfileManager.getUserData(id: "\(UserInfo.share.logInUserUid)")
+        userProfileManager.getAllUsers()
         let hud = JGProgressHUD(style: .dark)
         hud.textLabel.text = "Loading"
         hud.show(in: self.view)
