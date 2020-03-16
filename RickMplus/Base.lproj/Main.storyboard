@@ -11,13 +11,13 @@
         <!--建立群組-->
         <scene sceneID="Ydx-eP-DN3">
             <objects>
-                <viewController id="1rD-cu-4bs" customClass="CreateGroupViewController" customModule="RickM_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="1rD-cu-4bs" customClass="CreateGroupViewController" customModule="RickMPLus" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2SP-z0-3n0">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zhk-Dl-Pf8">
-                                <rect key="frame" x="5" y="98" width="100" height="100"/>
+                                <rect key="frame" x="5" y="10" width="100" height="100"/>
                                 <color key="backgroundColor" red="0.55532316459999997" green="0.75557699690000002" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="eCr-NM-NN5"/>
@@ -29,19 +29,19 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="群組名稱" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FUC-lx-rLZ">
-                                <rect key="frame" x="115" y="108" width="70" height="21"/>
+                                <rect key="frame" x="115" y="20" width="70" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0/20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bv8-eF-7Rp">
-                                <rect key="frame" x="368" y="108" width="36" height="21"/>
+                                <rect key="frame" x="368" y="20" width="36" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="C3Z-bM-yos">
-                                <rect key="frame" x="115" y="139" width="289" height="40"/>
+                                <rect key="frame" x="115" y="51" width="289" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="D4y-of-lVt"/>
                                 </constraints>
@@ -49,13 +49,13 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="開放所有 M+用戶搜尋到您的群組" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cHy-j0-ktl">
-                                <rect key="frame" x="5" y="263" width="210.5" height="17"/>
+                                <rect key="frame" x="5" y="175" width="210.5" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cyx-sj-4dO">
-                                <rect key="frame" x="0.0" y="218" width="414" height="40"/>
+                                <rect key="frame" x="0.0" y="130" width="414" height="40"/>
                                 <subviews>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dFj-e2-gPT">
                                         <rect key="frame" x="355" y="4.5" width="51" height="31"/>
@@ -79,7 +79,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bg6-wo-Uaq">
-                                <rect key="frame" x="0.0" y="285" width="414" height="40"/>
+                                <rect key="frame" x="0.0" y="197" width="414" height="40"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="設定加入群組條件" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ThB-8R-J7X">
                                         <rect key="frame" x="30" y="10" width="139" height="20"/>
@@ -146,18 +146,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aVD-VU-J6b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2946.376811594203" y="249.77678571428569"/>
+            <point key="canvasLocation" x="-3980" y="259"/>
         </scene>
         <!--新增好友及群組-->
         <scene sceneID="XEM-rD-qCd">
             <objects>
-                <viewController id="djS-dR-Ebb" customClass="AddFriendOrGroupViewController" customModule="RickM_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="djS-dR-Ebb" customClass="AddFriendOrGroupViewController" customModule="RickMPLus" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6D2-Af-DHc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iWp-4r-Udg">
-                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="透過M+ ID / 電話號碼搜尋朋友" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ltj-Xr-eyY">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
@@ -207,7 +207,7 @@
                                             <constraint firstAttribute="height" constant="125" id="m6A-AL-4XO"/>
                                         </constraints>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="SearchFriend" rowHeight="70.5" id="9CF-WG-WHV" customClass="SearchFriendTableViewCell" customModule="RickM_" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="70.5" id="9CF-WG-WHV">
                                                 <rect key="frame" x="0.0" y="28" width="414" height="70.5"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9CF-WG-WHV" id="6Vb-2r-Trw">
@@ -265,11 +265,6 @@
                                                         <constraint firstItem="KTx-h7-cmh" firstAttribute="centerY" secondItem="6Vb-2r-Trw" secondAttribute="centerY" id="u18-HT-D8t"/>
                                                     </constraints>
                                                 </tableViewCellContentView>
-                                                <connections>
-                                                    <outlet property="confirmFriendStatusBtn" destination="8Rz-Zt-iDt" id="lV2-uA-sf4"/>
-                                                    <outlet property="searchFriendImage" destination="PyL-9p-QFT" id="OxL-Ct-AI0"/>
-                                                    <outlet property="searchFriendName" destination="KTx-h7-cmh" id="qk2-vz-e7u"/>
-                                                </connections>
                                             </tableViewCell>
                                         </prototypes>
                                         <sections/>
@@ -399,12 +394,129 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WLL-Kn-fB0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2246.376811594203" y="244.41964285714283"/>
+            <point key="canvasLocation" x="-3378" y="258"/>
+        </scene>
+        <!--Search Friend Add View Controller-->
+        <scene sceneID="rfv-NZ-607">
+            <objects>
+                <viewController id="3RZ-HW-Hhc" customClass="SearchFriendAddViewController" customModule="RickMPLus" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KRh-dd-iVO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="透過M+ ID / 電話號碼搜尋朋友" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2JB-iI-cTe">
+                                <rect key="frame" x="0.0" y="88" width="414" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="KdP-af-ine"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="bxD-kn-tSj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0Sz-fD-DzO">
+                                <rect key="frame" x="0.0" y="148" width="414" height="665"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <searchBar key="tableHeaderView" contentMode="redraw" id="Vjr-39-als">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <textInputTraits key="textInputTraits" returnKeyType="search"/>
+                                </searchBar>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="SearchFriend" rowHeight="70.5" id="c5f-Nc-gb1" customClass="SearchFriendTableViewCell" customModule="RickMPLus" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="84" width="414" height="70.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="c5f-Nc-gb1" id="8Ez-0P-OpB">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="70.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="JsW-Ry-2I8">
+                                                    <rect key="frame" x="5" y="5.5" width="60" height="59.5"/>
+                                                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="60" id="R3K-gB-GN5"/>
+                                                        <constraint firstAttribute="height" constant="60" id="pK0-b3-1tr"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MMw-yS-ipz">
+                                                    <rect key="frame" x="70" y="23" width="42" height="25"/>
+                                                    <color key="backgroundColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                                    <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="25" id="g4d-a2-RvC"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                            <integer key="value" value="15"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kde-AQ-RmL">
+                                                    <rect key="frame" x="325.5" y="15" width="78.5" height="40.5"/>
+                                                    <color key="backgroundColor" red="1" green="0.84386880210000004" blue="0.95745001370000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="78.5" id="NHZ-x6-KVh"/>
+                                                    </constraints>
+                                                    <state key="normal" title="Button"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                            <integer key="value" value="20"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="JsW-Ry-2I8" firstAttribute="top" secondItem="8Ez-0P-OpB" secondAttribute="top" constant="5" id="07T-5B-dgw"/>
+                                                <constraint firstItem="kde-AQ-RmL" firstAttribute="top" secondItem="8Ez-0P-OpB" secondAttribute="top" constant="15" id="Agr-hi-28A"/>
+                                                <constraint firstItem="MMw-yS-ipz" firstAttribute="leading" secondItem="JsW-Ry-2I8" secondAttribute="trailing" constant="5" id="Ayb-7f-Clw"/>
+                                                <constraint firstItem="MMw-yS-ipz" firstAttribute="centerY" secondItem="8Ez-0P-OpB" secondAttribute="centerY" id="Hkk-f9-YKr"/>
+                                                <constraint firstAttribute="bottom" secondItem="kde-AQ-RmL" secondAttribute="bottom" constant="15" id="Jkm-qS-uG0"/>
+                                                <constraint firstAttribute="trailing" secondItem="kde-AQ-RmL" secondAttribute="trailing" constant="10" id="RRS-cn-tlT"/>
+                                                <constraint firstAttribute="bottom" secondItem="JsW-Ry-2I8" secondAttribute="bottom" constant="5" id="f4F-Vw-XZS"/>
+                                                <constraint firstItem="JsW-Ry-2I8" firstAttribute="leading" secondItem="8Ez-0P-OpB" secondAttribute="leading" constant="5" id="lGE-8S-qVT"/>
+                                                <constraint firstItem="kde-AQ-RmL" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="MMw-yS-ipz" secondAttribute="trailing" id="rN9-Ar-aTV"/>
+                                                <constraint firstAttribute="bottom" secondItem="kde-AQ-RmL" secondAttribute="bottom" constant="15" id="ttU-GD-teS"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="confirmFriendStatusBtn" destination="kde-AQ-RmL" id="fxX-wi-5ID"/>
+                                            <outlet property="searchFriendImage" destination="JsW-Ry-2I8" id="0pg-jS-7vp"/>
+                                            <outlet property="searchFriendName" destination="MMw-yS-ipz" id="MCf-kc-k6H"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="2JB-iI-cTe" firstAttribute="top" secondItem="KEx-aL-lWe" secondAttribute="top" id="8g0-cx-O4w"/>
+                            <constraint firstItem="KEx-aL-lWe" firstAttribute="bottom" secondItem="0Sz-fD-DzO" secondAttribute="bottom" id="Rcv-VI-Stl"/>
+                            <constraint firstItem="0Sz-fD-DzO" firstAttribute="top" secondItem="2JB-iI-cTe" secondAttribute="bottom" id="VXL-GF-ykk"/>
+                            <constraint firstAttribute="trailing" secondItem="2JB-iI-cTe" secondAttribute="trailing" id="bcK-p3-Je6"/>
+                            <constraint firstItem="KEx-aL-lWe" firstAttribute="trailing" secondItem="0Sz-fD-DzO" secondAttribute="trailing" id="nZS-5n-mY7"/>
+                            <constraint firstItem="2JB-iI-cTe" firstAttribute="leading" secondItem="KEx-aL-lWe" secondAttribute="leading" id="uff-66-qqx"/>
+                            <constraint firstItem="0Sz-fD-DzO" firstAttribute="leading" secondItem="KEx-aL-lWe" secondAttribute="leading" id="zdT-9X-eA6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="KEx-aL-lWe"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="0uF-JC-aXp"/>
+                    <connections>
+                        <outlet property="searchFriendBar" destination="Vjr-39-als" id="Dza-29-hVI"/>
+                        <outlet property="searchFriendTableView" destination="0Sz-fD-DzO" id="RrD-uG-Les"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q3y-bs-MUp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2274" y="238"/>
         </scene>
         <!--好友-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="FriendViewController" customModule="RickM_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="FriendViewController" customModule="RickMPLus" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -413,7 +525,7 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FriendPersonal" rowHeight="70" id="Iwb-TN-dlL" customClass="FriendPersonalTableViewCell" customModule="RickM_" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FriendPersonal" rowHeight="70" id="Iwb-TN-dlL" customClass="FriendPersonalTableViewCell" customModule="RickMPLus" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Iwb-TN-dlL" id="ZnZ-d0-uTu">
@@ -466,7 +578,7 @@
                                             <outlet property="friendPersonalStatus" destination="7UQ-bq-aB7" id="sVV-Kb-ZHF"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FriendCompany" rowHeight="70" id="MC6-h4-w9o" customClass="FriendCompanyTableViewCell" customModule="RickM_" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FriendCompany" rowHeight="70" id="MC6-h4-w9o" customClass="FriendCompanyTableViewCell" customModule="RickMPLus" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="98" width="414" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MC6-h4-w9o" id="m3F-LD-9m3">
@@ -528,7 +640,7 @@
                                             <outlet property="friendCompanyStatus" destination="IK7-by-gCv" id="fa0-Tc-jLL"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FriendCompanyGroup" rowHeight="70.5" id="Qeg-Oc-C8w" customClass="FriendCompanyGroupTableViewCell" customModule="RickM_" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FriendCompanyGroup" rowHeight="70.5" id="Qeg-Oc-C8w" customClass="FriendCompanyGroupTableViewCell" customModule="RickMPLus" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="168" width="414" height="70.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Qeg-Oc-C8w" id="baW-cO-PEo">
@@ -576,7 +688,7 @@
                                             <outlet property="friendCompanyGroupName" destination="5rn-ni-oQd" id="atr-Zc-fDh"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FriendGroup" rowHeight="70" id="8ZA-4R-HqU" customClass="FriendGroupTableViewCell" customModule="RickM_" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FriendGroup" rowHeight="70" id="8ZA-4R-HqU" customClass="FriendGroupTableViewCell" customModule="RickMPLus" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="238.5" width="414" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8ZA-4R-HqU" id="sEh-lj-a8b">
@@ -643,8 +755,8 @@
                     </navigationItem>
                     <connections>
                         <outlet property="friendTableView" destination="ZF6-pd-eei" id="uml-kH-f71"/>
-                        <segue destination="djS-dR-Ebb" kind="show" identifier="AddFriendOrGroup" id="Ji2-ie-hTK"/>
                         <segue destination="O4F-vo-lZo" kind="show" identifier="ShowUserProfile" id="3Fn-wq-KER"/>
+                        <segue destination="3RZ-HW-Hhc" kind="show" identifier="SearchAddFriend" id="kvS-dQ-vB6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -654,7 +766,7 @@
         <!--Log In View Controller-->
         <scene sceneID="zQ6-GB-Ohy">
             <objects>
-                <viewController id="9Ei-uI-x6l" customClass="LogInViewController" customModule="RickM_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9Ei-uI-x6l" customClass="LogInViewController" customModule="RickMPLus" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0Cj-VM-gP1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -819,13 +931,13 @@
         <!--個人資料-->
         <scene sceneID="BnG-4p-p3L">
             <objects>
-                <viewController storyboardIdentifier="UserProfileVC" id="O4F-vo-lZo" customClass="SelfInformationViewController" customModule="RickM_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="UserProfileVC" id="O4F-vo-lZo" customClass="SelfInformationViewController" customModule="RickMPLus" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="urF-7s-uY7">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xp4-mY-GlJ">
-                                <rect key="frame" x="5" y="10" width="100" height="100"/>
+                                <rect key="frame" x="5" y="98" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="LPG-IT-DfX"/>
                                     <constraint firstAttribute="height" constant="100" id="kFI-bo-pyd"/>
@@ -836,37 +948,37 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="手機號碼" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YRr-Dy-8NN">
-                                <rect key="frame" x="115" y="10" width="69.5" height="21"/>
+                                <rect key="frame" x="115" y="98" width="69.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+889 922666666" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gFV-qS-lxL">
-                                <rect key="frame" x="115" y="36" width="139.5" height="21"/>
+                                <rect key="frame" x="115" y="124" width="139.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我的 M+ ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qPQ-LP-ZjI">
-                                <rect key="frame" x="115" y="62" width="85" height="21"/>
+                                <rect key="frame" x="115" y="150" width="85" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RIckSun" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EIN-gE-JAt">
-                                <rect key="frame" x="115" y="88" width="62.5" height="21"/>
+                                <rect key="frame" x="115" y="176" width="62.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="請設定暱稱" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VBx-QE-7QG">
-                                <rect key="frame" x="10" y="120" width="87" height="21"/>
+                                <rect key="frame" x="10" y="208" width="87" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bs9-W6-aGm">
-                                <rect key="frame" x="0.0" y="146" width="414" height="40"/>
+                                <rect key="frame" x="0.0" y="234" width="414" height="40"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S2q-SW-9Bf">
                                         <rect key="frame" x="10" y="20" width="0.0" height="0.0"/>
@@ -899,13 +1011,13 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="狀態" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2U2-tA-9CQ">
-                                <rect key="frame" x="10" y="191" width="35" height="21"/>
+                                <rect key="frame" x="10" y="279" width="35" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0zi-qn-uxF">
-                                <rect key="frame" x="0.0" y="217" width="414" height="40"/>
+                                <rect key="frame" x="0.0" y="305" width="414" height="40"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9jz-aP-R92">
                                         <rect key="frame" x="10" y="20" width="0.0" height="0.0"/>
@@ -989,26 +1101,26 @@
         <!--狀態-->
         <scene sceneID="0xj-sN-37a">
             <objects>
-                <viewController id="gGY-8j-znn" customClass="ChangeStatusViewController" customModule="RickM_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="gGY-8j-znn" customClass="ChangeStatusViewController" customModule="RickMPLus" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="A0D-Gd-FfT">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="目前狀態" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tw4-gD-dTB">
-                                <rect key="frame" x="10" y="10" width="53.5" height="16"/>
+                                <rect key="frame" x="10" y="98" width="53.5" height="16"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="QhL-dg-50D">
-                                <rect key="frame" x="10" y="37" width="50" height="47.5"/>
+                                <rect key="frame" x="10" y="125" width="50" height="47.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="Q22-DI-QpM"/>
                                     <constraint firstAttribute="height" constant="50" id="wiX-D7-6bT"/>
                                 </constraints>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GHp-kM-3hN">
-                                <rect key="frame" x="70" y="41.5" width="264" height="40"/>
+                                <rect key="frame" x="70" y="129.5" width="264" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="mi8-5S-m8M"/>
                                 </constraints>
@@ -1016,7 +1128,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6fp-vJ-vQh">
-                                <rect key="frame" x="344" y="41.5" width="60" height="40"/>
+                                <rect key="frame" x="344" y="129.5" width="60" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="PJ6-D7-dOc"/>
                                     <constraint firstAttribute="height" constant="40" id="ttw-Wm-7fu"/>
@@ -1030,13 +1142,13 @@
                                 </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="sx3-cG-JO6">
-                                <rect key="frame" x="0.0" y="117" width="414" height="310"/>
+                                <rect key="frame" x="0.0" y="205" width="414" height="310"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="310" id="T2K-Ml-QFp"/>
                                 </constraints>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="DefaultStatus" rowHeight="60" id="FAG-aU-Lgt" customClass="DefaultStatusTableViewCell" customModule="RickM_" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="DefaultStatus" rowHeight="60" id="FAG-aU-Lgt" customClass="DefaultStatusTableViewCell" customModule="RickMPLus" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="FAG-aU-Lgt" id="zxf-VT-fWY">
@@ -1064,7 +1176,7 @@
                                 </prototypes>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="預設狀態" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MUO-mx-kYM">
-                                <rect key="frame" x="10" y="96" width="53.5" height="16"/>
+                                <rect key="frame" x="10" y="184" width="53.5" height="16"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <nil key="textColor"/>
                                 <color key="highlightedColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1105,25 +1217,25 @@
         <!--請設定暱稱-->
         <scene sceneID="DXR-ps-bwx">
             <objects>
-                <viewController id="O8R-oJ-962" customClass="ChangeNamwViewController" customModule="RickM_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="O8R-oJ-962" customClass="ChangeNamwViewController" customModule="RickMPLus" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OPK-DJ-Pvq">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="暱稱是您在 M+ 內顯示名稱。您可以在 M+ 好友 &gt; 個人資料中隨時修改" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jfB-Rg-xpv">
-                                <rect key="frame" x="20" y="10" width="374" height="41"/>
+                                <rect key="frame" x="20" y="98" width="374" height="41"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0/20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xga-hO-Me0">
-                                <rect key="frame" x="375.5" y="56" width="28.5" height="16"/>
+                                <rect key="frame" x="375.5" y="144" width="28.5" height="16"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2AM-iF-g8B">
-                                <rect key="frame" x="20" y="81" width="374" height="40"/>
+                                <rect key="frame" x="20" y="169" width="374" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Nx0-Fs-ZXh"/>
                                 </constraints>
@@ -1131,13 +1243,13 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="請輸入 2-20 個字，不可輸入特殊特殊符號" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ee-bl-pNu">
-                                <rect key="frame" x="20" y="131" width="249.5" height="16"/>
+                                <rect key="frame" x="20" y="219" width="249.5" height="16"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Olh-H3-8kT">
-                                <rect key="frame" x="20" y="167" width="374" height="40"/>
+                                <rect key="frame" x="20" y="255" width="374" height="40"/>
                                 <color key="backgroundColor" red="0.55532316459999997" green="0.75557699690000002" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="kAV-j8-jI8"/>
@@ -1205,7 +1317,7 @@
         <!--好禮 +-->
         <scene sceneID="joQ-Fr-9NS">
             <objects>
-                <viewController id="1c2-IN-rdl" customClass="GiftViewController" customModule="RickM_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="1c2-IN-rdl" customClass="GiftViewController" customModule="RickMPLus" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="43j-AV-Jz4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1223,7 +1335,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="GiftImageCollectionView" id="GNL-76-9Jv" customClass="GiftImageCollectionViewCell" customModule="RickM_" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="GiftImageCollectionView" id="GNL-76-9Jv" customClass="GiftImageCollectionViewCell" customModule="RickMPLus" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="413" height="120"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="riT-Nc-T21">
@@ -1269,7 +1381,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProductItemsCollectionView" id="IFs-uq-Koi" customClass="ProductItemsCollectionViewCell" customModule="RickM_" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProductItemsCollectionView" id="IFs-uq-Koi" customClass="ProductItemsCollectionViewCell" customModule="RickMPLus" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="90" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="cgf-f3-lRf">
@@ -1303,7 +1415,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <color key="sectionIndexBackgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="GiftProductListTableViewCell" rowHeight="100" id="YJL-tu-Olv" customClass="GiftProductListTableViewCell" customModule="RickM_" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="GiftProductListTableViewCell" rowHeight="100" id="YJL-tu-Olv" customClass="GiftProductListTableViewCell" customModule="RickMPLus" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YJL-tu-Olv" id="rnA-h6-bEm">
@@ -1407,7 +1519,7 @@
         <!--聊天-->
         <scene sceneID="Jlm-wF-r0S">
             <objects>
-                <viewController storyboardIdentifier="Test1" id="Ugs-6i-Erh" customClass="ChatMainViewController" customModule="RickM_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Test1" id="Ugs-6i-Erh" customClass="ChatMainViewController" customModule="RickMPLus" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MBt-Cn-JVg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1416,7 +1528,7 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChatUITableVIewCell" rowHeight="70" id="T5l-Jj-XNf" customClass="ChatListTableViewCell" customModule="RickM_" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChatUITableVIewCell" rowHeight="70" id="T5l-Jj-XNf" customClass="ChatListTableViewCell" customModule="RickMPLus" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="T5l-Jj-XNf" id="1vQ-Lv-1eb">
@@ -1533,7 +1645,7 @@
         <!--Select New Chat Controller-->
         <scene sceneID="R4Y-VA-Ibh">
             <objects>
-                <viewController id="AIZ-wa-6t9" customClass="SelectNewChatController" customModule="RickM_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="AIZ-wa-6t9" customClass="SelectNewChatController" customModule="RickMPLus" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0OP-ue-5gG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1559,7 +1671,7 @@
                                 <rect key="frame" x="0.0" y="148" width="414" height="665"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AddChatFriend" rowHeight="70" id="20H-O1-7wQ" customClass="SelectNewChatFriendTableViewCell" customModule="RickM_" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AddChatFriend" rowHeight="70" id="20H-O1-7wQ" customClass="SelectNewChatFriendTableViewCell" customModule="RickMPLus" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="20H-O1-7wQ" id="KYm-0C-tYJ">
@@ -1611,7 +1723,7 @@
                                             <outlet property="selectChatFriendStatusLabel" destination="lht-wO-H13" id="g8y-Bg-NfY"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AddChatCompany" rowHeight="70" id="vkb-z1-Zip" customClass="SelectNewChatWorkTableViewCell" customModule="RickM_" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AddChatCompany" rowHeight="70" id="vkb-z1-Zip" customClass="SelectNewChatWorkTableViewCell" customModule="RickMPLus" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="98" width="414" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vkb-z1-Zip" id="4jm-OY-zg7">
@@ -1697,7 +1809,7 @@
         <!--更多-->
         <scene sceneID="gK9-mS-xq9">
             <objects>
-                <viewController id="NXC-rq-Izu" customClass="MoreViewController" customModule="RickM_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="NXC-rq-Izu" customClass="MoreViewController" customModule="RickMPLus" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="A4y-I6-Uyo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1712,7 +1824,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MoreCollectionViewCell" id="C22-fd-DRf" customClass="MoreCollectionViewCell" customModule="RickM_" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MoreCollectionViewCell" id="C22-fd-DRf" customClass="MoreCollectionViewCell" customModule="RickMPLus" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="120" height="160"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Cav-Iy-2TI">
@@ -1866,6 +1978,6 @@
         <image name="user-friend" width="32" height="32"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="4Dv-d2-gGf"/>
+        <segue reference="3Fn-wq-KER"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -17,4 +17,7 @@ pod 'Kingfisher', '~> 5.0'
 pod 'JGProgressHUD'
 pod 'Firebase/Messaging'
 
+#target 'RecapPracticeUITests' do
+#  # Pods for testing
+
 end

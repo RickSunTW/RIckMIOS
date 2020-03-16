@@ -16,7 +16,7 @@ class FriendViewController: UIViewController {
     @IBOutlet weak var friendTableView: UITableView!
     
     @IBAction func addFriendOrGroupBtn(_ sender: Any) {
-        performSegue(withIdentifier: "AddFriendOrGroup", sender: nil)
+        performSegue(withIdentifier: "SearchAddFriend", sender: nil)
     }
     var userProfileManager = UserProfileManager()
     var userData:Users?
